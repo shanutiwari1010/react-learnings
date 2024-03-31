@@ -18,7 +18,7 @@ function App() {
         <div className="flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-3xl">
           <button
             onClick={() => setColor("red")}
-            className="outlibe-none px-4 py-1 rounded-full text-white shadow-lg text-black"
+            className="outlibe-none px-4 py-1 rounded-full text-white shadow-lg"
             style={{ backgroundColor: "red" }}
           >
             Red
@@ -26,7 +26,7 @@ function App() {
 
           <button
             onClick={() => setColor("green")}
-            className="outlibe-none px-4 py-1 rounded-full text-white shadow-lg text-black"
+            className="outlibe-none px-4 py-1 rounded-full text-white shadow-lg"
             style={{ backgroundColor: "green" }}
           >
             Green
@@ -34,7 +34,7 @@ function App() {
 
           <button
             onClick={() => setColor("yellow")}
-            className="outlibe-none px-4 py-1 rounded-full text-black shadow-lg text-black"
+            className="outlibe-none px-4 py-1 rounded-full text-black shadow-lg"
             style={{ backgroundColor: "yellow" }}
           >
             Yellow
@@ -42,7 +42,7 @@ function App() {
 
           <button
             onClick={() => setColor("blue")}
-            className="outlibe-none px-4 py-1 rounded-full text-white shadow-lg text-black"
+            className="outlibe-none px-4 py-1 rounded-full text-white shadow-lg"
             style={{ backgroundColor: "blue" }}
           >
             Blue
@@ -50,7 +50,7 @@ function App() {
 
           <button
             onClick={() => setColor("gray")}
-            className="outlibe-none px-4 py-1 rounded-full text-white shadow-lg text-black"
+            className="outlibe-none px-4 py-1 rounded-full shadow-lg text-black"
             style={{ backgroundColor: "gray" }}
           >
             Gray
@@ -58,7 +58,7 @@ function App() {
 
           <button
             onClick={() => setColor("purple")}
-            className="outlibe-none px-4 py-1 rounded-full text-white shadow-lg text-black"
+            className="outlibe-none px-4 py-1 rounded-full text-white shadow-lg"
             style={{ backgroundColor: "purple" }}
           >
             Purple
@@ -66,7 +66,7 @@ function App() {
 
           <button
             onClick={() => setColor("pink")}
-            className="outlibe-none px-4 py-1 rounded-full text-black shadow-lg text-black"
+            className="outlibe-none px-4 py-1 rounded-full text-black shadow-lg "
             style={{ backgroundColor: "pink" }}
           >
             Pink
@@ -74,7 +74,7 @@ function App() {
 
           <button
             onClick={() => setColor("lavender")}
-            className="outlibe-none px-4 py-1 rounded-full text-black shadow-lg text-black"
+            className="outlibe-none px-4 py-1 rounded-full text-black shadow-lg"
             style={{ backgroundColor: "lavender" }}
           >
             Lavender
@@ -82,7 +82,7 @@ function App() {
           
           <button
             onClick={() => setColor("white")}
-            className="outlibe-none px-4 py-1 rounded-full text-black shadow-lg text-black"
+            className="outlibe-none px-4 py-1 rounded-full text-black shadow-lg "
             style={{ backgroundColor: "white" }}
           >
             White
@@ -90,7 +90,7 @@ function App() {
 
           <button
             onClick={() => setColor("black")}
-            className="outlibe-none px-4 py-1 rounded-full text-white shadow-lg text-black"
+            className="outlibe-none px-4 py-1 rounded-full text-white shadow-lg"
             style={{ backgroundColor: "black" }}
           >
             Black
