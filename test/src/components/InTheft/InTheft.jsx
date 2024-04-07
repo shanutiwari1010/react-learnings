@@ -1,5 +1,5 @@
 function InTheft() {
-  return <div>
+  return <div className="text-pink">
     InTheft
   </div>;
 }

@@ -3,12 +3,11 @@ import { Outlet } from "react-router-dom";
 
 function Layout() {
   return (
-  <>
-   <Header />
-   <Outlet />
-   
-  </>
-  )
+    <div className="bg-black">
+      <Header />
+      <Outlet />
+    </div>
+  );
 }
 
 export default Layout;
